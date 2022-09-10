@@ -18,10 +18,6 @@ lw += 1;
 while (up <= 'Z')
 {
 putchar(up);
-}
-while (up <= 'Z')
-{
-putchar(up);
 up += 1;
 }
 putchar('\n');
