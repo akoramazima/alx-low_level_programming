@@ -38,4 +38,4 @@ n2 += 1;
 n1 += 1;
 putchar('\n');
 return (0);
-}
+sed -e '30,$d' 101-print_comb4.c
