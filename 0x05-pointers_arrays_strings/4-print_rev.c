@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <string.h>
-#include <main.h>
+#include  <string.h>
+#include "main.h"
 
 /**
-*print_rev -  prints a string in reverse order
+*print_rev - prints a string in a reverse order
 *@s: string to reverse
 *Return: Nothing
 */
