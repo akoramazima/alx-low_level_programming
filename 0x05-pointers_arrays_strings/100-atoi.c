@@ -5,7 +5,7 @@
  * @s: the string to be changed
  *
  * Return: the converted int
- * */
+ */
 
 int _atoi(char *s)
 {
