@@ -38,7 +38,7 @@ char transform(char x)
 		if (x == mapping_low[i] || x == mapping_upper[i])
 		{
 			replacement = i + '0';
-			break;
+		break;
 		}
 		i++;
 	}
