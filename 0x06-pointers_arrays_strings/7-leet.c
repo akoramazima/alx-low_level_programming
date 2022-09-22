@@ -42,5 +42,5 @@ char transform(char x)
 		}
 		i++;
 	}
-	return(replacement);
+	return (replacement);
 }
