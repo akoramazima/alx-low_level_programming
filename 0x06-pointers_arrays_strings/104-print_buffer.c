@@ -30,3 +30,4 @@ void print_line(char *c, int s, int l)
 		else
 			putchar('.');
 	}
+	:%s/\s\+$//e
