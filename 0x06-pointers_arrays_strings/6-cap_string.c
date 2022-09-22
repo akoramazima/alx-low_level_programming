@@ -3,8 +3,8 @@
 /**
  * _strlen - returns the length of a string
  * @s: string
- * Return: returns lenth as integer;
- */*
+ * Return: returns length as integer;
+ */
 
 int _strlen(char *s)
 {
@@ -18,7 +18,7 @@ int _strlen(char *s)
 
 /**
  * cap_string - function that capitalize first character of a word
- * @str: string to capitalze
+ * @str: string to capitalize
  * Return: returns the capialized string
  */
 
@@ -43,7 +43,7 @@ char *cap_string(char *str)
 				str[index - 1] == '(' ||
 				str[index - 1] == ')' ||
 				str[index - 1] == '{' ||
-				str[index - 1] == '}' ||)
+				str[index - 1] == '}')
 			str[index] -= 32;
 	}
 
