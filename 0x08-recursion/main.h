@@ -1,12 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
 
-/**
- *Main.h
- *Header file containing prototypes for all functions
- *
- */
+#include <stdio.h>
 
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
