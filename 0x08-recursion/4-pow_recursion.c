@@ -5,7 +5,7 @@
  * @x: number to be used
  * @y: exponet to be used
  *
- * Returrn: x ⌃ y
+ * Return: x ⌃ y
  */
 int _pow_recursion(int x, int y)
 {
