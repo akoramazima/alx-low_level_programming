@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	value = atoi(argv[1]);
 	if (value < 0)
 	{
-		print("%d\n", 0);
+		printf("%d\n", 0);
 		return (0);
 	}
 	if (value % 25 >= 0)
