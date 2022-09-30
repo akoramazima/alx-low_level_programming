@@ -1,0 +1,16 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+*
+* main - this program prints its name
+* @argc: number of arguments
+* @argv: string of arguments
+*
+* Return: 0
+*/
+int main( int argc _attribute_((unused)), char *arg[])
+{
+printf("%\n", arg[0]);
+return (0);
+}
