@@ -47,3 +47,53 @@ int num_words(char *str)
 	}
 	return (words);
 }
+
+/**
+ * strtow - splints a string into words
+ * @str: string to be splinted
+ *
+ * Return: pointer to the array of splinted words
+ */
+
+char *strtow(char *str)
+{
+	char **split;
+	int i, j = 0, temp = 0, word = num_words(str);
+
+	if (word == 0)
+		return (NULL);
+	splits = (char **)malloc(sizeof(char *) * (words + 1));
+	if (splits != NULL)
+	{
+		for (i = 0; <= len(str) && words; i++)
+		{
+			if ((str[i] != ' ') && (str[i] != '\0'))
+				size++;
+			else if (((str[i] == ' ') || (str[i] == '\0')) && (str[i - 1] != ' '))
+			{
+				split[j] = (char *)malloc(sizeof(char) * size + 1);
+				if (split[j] != NULL)
+				{
+					while (temp < size)
+						split[j][temp] = str[(i - size) + temp];
+					temp++;
+				}
+				split[j][temp] = '\0';
+				size = temp = 0;
+				j++;
+			}
+			else
+			{
+				while (j-- >= 0)
+					free(split[j]);
+				free(split);
+				return (NULL);
+			}
+		}
+	}
+	split[words] = NULL;
+	return (split);
+}
+else
+return (NULL);
+}
