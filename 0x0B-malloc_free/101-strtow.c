@@ -55,7 +55,7 @@ int num_words(char *str)
  * Return: pointer to the array of splinted words
  */
 
-char *strtow(char *str)
+char **strtow(char *str)
 {
 	char **split;
 	int i, j = 0, temp = 0, word = num_words(str);
