@@ -27,7 +27,7 @@ int len(char *str)
  */
 int num_words(char *str)
 {
-	int i = 0, word = 0;
+	int i = 0, words = 0;
 
 	while (i <= len(str))
 	{
