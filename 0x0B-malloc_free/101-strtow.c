@@ -60,12 +60,12 @@ char **strtow(char *str)
 	char **split;
 	int i, j = 0, temp = 0, words = num_words(str);
 
-	if (word == 0)
+	if (words == 0)
 		return (NULL);
 	split = (char **)malloc(sizeof(char *) * (words + 1));
 	if (split != NULL)
 	{
-		for (i = 0; <= len(str) && words; i++)
+		for (i = 0; i <= len(str) && words; i++)
 		{
 			if ((str[i] != ' ') && (str[i] != '\0'))
 				size++;
@@ -75,6 +75,7 @@ char **strtow(char *str)
 				if (split[j] != NULL)
 				{
 					while (temp < size)
+					{
 						split[j][temp] = str[(i - size) + temp];
 					temp++;
 				}
